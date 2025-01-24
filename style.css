@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    text-align: center;
+
+}
+.container{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+.item {
+    background-color: rgb(177, 177, 177);
+    border: 1px solid rgb(255, 255, 255);
+    height: 37.5px;
+    width: 37.5px;
+    box-sizing: border-box;
+}
